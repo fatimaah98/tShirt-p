@@ -1,0 +1,279 @@
+@media (min-width: 768px) {
+  .main {
+    width: 85% !important;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 768px) {
+  .w-35 {
+    width: 85% !important;
+  }
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  position: relative;
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+.w-90 {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.black {
+  color: black;
+}
+
+header {
+  z-index: 1000;
+  position: sticky;
+}
+
+header .bars {
+  font-size: 25px;
+}
+
+header .logo {
+  transition: 0.3s all;
+  border-bottom: 1px solid black;
+}
+
+header .logo:hover {
+  color: #3793df;
+}
+
+header .search-input {
+  transition: 0.5s border-bottom;
+  border-bottom: 1px solid #fff;
+}
+
+header .search-input input {
+  outline: 0;
+}
+
+header .search-input input::placeholder {
+  color: #bdbdbd;
+}
+
+header .search-input:hover {
+  border-bottom: 1px solid black;
+}
+
+header .links ul li {
+  display: inline;
+}
+
+header .links ul li a {
+  color: black;
+  transition: 0.3s;
+}
+
+header .links ul li a:hover {
+  color: #3793df;
+}
+
+header .shirt-icon {
+  transition: all 0.3s;
+  margin-left: 5px;
+}
+
+header .shirt-icon:hover {
+  color: #85b9e4;
+  transform: scale(1.2);
+}
+
+.f-arial {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.white {
+  color: #fff;
+}
+
+#bar-icon {
+  opacity: 1;
+  transition: 0.2s;
+  font-size: 25px;
+}
+
+#xmark-icon {
+  opacity: 0;
+  transition: 0.2s;
+  font-size: 25px;
+}
+
+.search-icon {
+  z-index: 100;
+  top: 35%;
+}
+
+.social-icons-right {
+  z-index: 1000;
+  top: 400px;
+  left: 15px;
+}
+
+.social-icons-right i {
+  font-size: 25px;
+  margin-top: 10px;
+  transition: 0.5s;
+  color: #bbbbbb;
+}
+
+.social-icons-right i:hover {
+  color: #3793df;
+  transform: scale(1.5);
+}
+
+.main {
+  width: 100%;
+}
+
+.main .head-main {
+  background-color: #3793df;
+  color: white;
+}
+
+.main .head-main h2 {
+  font-size: 2.5rem !important;
+}
+
+.main .head-main p {
+  font-size: .975rem;
+}
+
+.main .head-main button {
+  background-color: transparent;
+  border: 2px solid white;
+  transition: all 0.3s;
+  padding: 5px 2rem;
+}
+
+.main .head-main button:hover {
+  background-color: white;
+  color: #3793df;
+}
+
+.main .ad-list div {
+  width: calc(100%3);
+}
+
+.main .ad-list div img {
+  width: 100%;
+}
+
+.newArivals {
+  text-align: center !important;
+}
+
+.text-new-a {
+  position: relative;
+  width: max-content;
+  font-size: 3rem;
+}
+
+.text-new-a::before {
+  border: 3px solid #3793df;
+  content: "";
+  width: 100%;
+  top: 60%;
+  position: absolute;
+  z-index: -1;
+}
+
+.w-35 {
+  width: 35%;
+}
+
+.myShop img {
+  width: 100%;
+  cursor: pointer;
+}
+
+.myShop p, .myShop span {
+  cursor: pointer;
+}
+
+.myShop span {
+  color: #3793df;
+}
+
+.myShop .item-for-sale .smile {
+  background-color: #bdbdbddc;
+  color: #1f5079;
+  width: 100%;
+  padding: 15px;
+  text-align: center;
+  cursor: pointer;
+  transform: translateY(70px);
+  opacity: 0;
+  transition: 0.4s;
+}
+
+.myShop .item-for-sale:hover .smile {
+  transform: translateY(-70px);
+  opacity: 1;
+}
+
+.shopAll {
+  margin-top: 50px;
+}
+
+.shopall-btn {
+  background-color: white;
+  border: 3px solid #3793df;
+  transition: all 0.3s;
+}
+
+.shopall-btn:hover {
+  background-color: #3793df;
+  color: white;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  margin-top: 100px;
+  padding: 80px 40px;
+}
+
+footer a {
+  margin: 10px 0;
+  transition: all 0.3s;
+}
+
+footer a:hover {
+  color: #3793df;
+}
+
+footer .links-f {
+  text-align: center;
+}
+
+footer .email-box input {
+  background-color: transparent;
+  border: 1px solid #fff;
+  padding: 10px 15px;
+  outline: 0;
+}
+
+footer .email-box button {
+  background-color: #3793df;
+  color: white;
+  margin-top: 15px;
+  border: 0;
+  padding: 10px 25px;
+  transition: 0.2s;
+}
+
+footer .email-box button:hover {
+  opacity: 0.8;
+  color: #1f5079;
+}
+/*# sourceMappingURL=style.css.map */
